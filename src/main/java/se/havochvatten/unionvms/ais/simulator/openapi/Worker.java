@@ -11,7 +11,7 @@ import java.net.Socket;
 import java.time.LocalTime;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
-
+//kommentar
 public class Worker implements Runnable {
 
 	private Socket clientSocket;
