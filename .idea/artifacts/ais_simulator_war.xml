@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ais-simulator:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ais-simulator</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ais-simulator.war">
+      <element id="artifact" artifact-name="ais-simulator:war exploded" />
+    </root>
+  </artifact>
+</component>
